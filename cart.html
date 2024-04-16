@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <a id="logo" href="index.html">Tickethack</a>
+        <a id="logo" href="index.html"><h1>Tickethack</h1></a>
         <div id="otherPages">
             <a href="cart.html">Cart</a>
             <a href="bookings.html">Bookings</a>
@@ -23,12 +23,28 @@
         </div>
     </header>
 
-    <div class="containerNoBookings">
+    <!-- <div class="containerNoBookings">
         <div class="noBookings" >
             <p>No tickets in your cart.</p>
             <p>Why not plan a trip?</p>
         </div>
-    </div>
+    </div> -->
 
+    <div id="cartContainer">
+        <div class="myCart">
+            <div >
+                <div class="cart">
+                    <p>${listTrip[i].departure} > ${listTrip[i].arrival} ${newHoraire.getHours()}:${newHoraire.getMinutes()} ${listTrip[i].price}€</p>
+                    <span class="delete">x</span>
+                </div>
+
+                <div class="totalCarts">
+                    <p>Total :</p>
+                    <button class='purchase'>Purchase</button>
+                </div>
+                
+            </div>
+        </div>
+  </div>
 </body>
 </html>

@@ -26,8 +26,15 @@ document.querySelector('#search').addEventListener('click', function (){
             if(dateData.getUTCFullYear()===newYear && (dateData.getUTCMonth()+1)===newMonth && dateData.getUTCDate()===newDay){
                 listTrip.push(data.trip[i]);
             }
-        
         }
         console.log(listTrip);
+        
+        for(let i=0; i < listTrip.length; i++){
+        document.querySelector('#response').innerHTML += `
+        <div class="tripsList">
+        <p>${listTrip[i].departure} > ${listTrip[i].arrival} .horaire ${listTrip[i].price}€</p>
+        <button class="book" type="button">Book</button>
+        </div>`
+        }
     })
 })

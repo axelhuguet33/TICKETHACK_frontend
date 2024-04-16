@@ -1,6 +1,6 @@
 document.querySelector('#search').addEventListener('click', function (){
     //console.log(document.querySelectorAll('#response')[0]);
-    document.querySelector('#response').firstElementChild.remove();
+   // document.querySelector('#response').firstElementChild.remove();
     // for(let i=1; i<document.querySelectorAll('#response').length; i++){
     //     document.querySelectorAll('#response')[i].remove();
     // }

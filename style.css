@@ -1,9 +1,15 @@
-/*grid 12*12*/
 /* Les titres sont en Noto Sans Korean 700 et les textes en Work Sans 300/400*/
 /*fond grisatre : #EFF2F1    vert : #459E85   */
 
 
 /*INDEX.HTML*/
+header{
+    display: flex;
+}
+
+#otherPages{
+    border: 6px solid blueviolet;
+}
 
 #container{
     border: 6px solid blueviolet;
@@ -22,11 +28,14 @@ h1{
 
 h2{
     color: #459E85;
-
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-style: ;
 }
 
 h3{
-
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
 }
 
 #boxes{
@@ -43,6 +52,8 @@ h3{
     margin: 100px;
     padding: 100px;
     align-content: center;
+    width: 400px;
+    height: 800px;
 }
 
 

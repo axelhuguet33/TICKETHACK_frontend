@@ -5,12 +5,29 @@ document.querySelector('#search').addEventListener('click', function (){
     console.log(departureName);
     console.log(arrivalName);
     console.log(dateTrip);
-    
+    const newDay = dateTrip.getDate();
+    const newMonth = dateTrip.getMonth()+ 1;
+    const newYear = dateTrip.getFullYear();
 
-    const newDay= dateTrip.getDate();
-    fetch(`http://localhost:3000/trips/${departureName}/${arrivalName}/${dateTrip}`)
+    console.log(newDay);
+    console.log(newMonth);
+    console.log(newYear);
+    fetch(`http://localhost:3000/trips/${departureName}/${arrivalName}`)
     .then(response =>response.json())
     .then(data =>{
-        console.log(data);
+        const listTrip = [];
+        //const dateData = new Date(data.trip[0].date);
+        // console.log(dateData.getFullYear());
+        // console.log(dateData.getMonth()+1);
+        // console.log(dateData.getDate());
+        //console.log(data.trip[0].date.getFullYear());
+        for (let i=0; i<data.trip.length; i++){
+            const dateData = new Date(data.trip[i].date);
+            if(dateData.getUTCFullYear()===newYear && (dateData.getUTCMonth()+1)===newMonth && dateData.getUTCDate()===newDay){
+                listTrip.push(data.trip[i]);
+            }
+        
+        }
+        console.log(listTrip);
     })
 })

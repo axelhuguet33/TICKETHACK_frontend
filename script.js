@@ -5,6 +5,7 @@ document.querySelector('#search').addEventListener('click', function (){
     console.log(departureName);
     console.log(arrivalName);
     console.log(dateTrip);
+    
 
     const newDay= dateTrip.getDate();
     fetch(`http://localhost:3000/trips/${departureName}/${arrivalName}/${dateTrip}`)

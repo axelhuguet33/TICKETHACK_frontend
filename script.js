@@ -5,8 +5,6 @@ document.querySelector('#search').addEventListener('click', function (){
     //     document.querySelectorAll('#response')[i].remove();
     // }
 
-
-
 //récupération du départ, de l'arrivée et de la date    
     const departureName = document.querySelector('#departure').value; 
     const arrivalName = document.querySelector('#arrival').value;

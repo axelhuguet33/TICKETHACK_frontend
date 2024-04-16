@@ -3,28 +3,108 @@
 /*fond grisatre : #EFF2F1    vert : #459E85   */
 
 
-
-
-
-
 /*INDEX.HTML*/
 
-#backgroudImage {
-    background-size : cover ;
+#container{
+    border: 6px solid blueviolet;
+    background-image: url('images/background.jpg');
 }
 
-#searchButton {
-    background-color: #459E85;
+#titles {
     color: white;
+    text-align: center;
+}
+
+h1{
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+}
+
+h2{
+    color: #459E85;
+
+}
+
+h3{
+
+}
+
+#boxes{
+    border: 6px solid blueviolet;
+    display: flex;
+}
+
+.box{
+    border: 6px solid blueviolet;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding: 100px;
+    align-content: center;
+}
+
+
+#departure{
+    border: 6px solid yellow;
+    background-color: #EFF2F1;
+    color: #8A8C8C;
     border-radius: 5px;
-    border: none;
-    font-family: work sans 300;
+/*    border: none; */
+    font-family: "Work Sans", sans-serif;;
     font-size: 20px;
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
 
+
+#arrival{
+    border: 6px solid yellow;
+    background-color: #EFF2F1;
+    color: #8A8C8C;
+    border-radius: 5px;
+/*    border: none; */
+    font-family: "Work Sans", sans-serif;;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#calendar{
+    border: 6px solid yellow;
+    background-color: #EFF2F1;
+    color: #8A8C8C;
+    border-radius: 5px;
+/*    border: none; */
+    font-family: "Work Sans", sans-serif;;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+
+#search {
+    border: 6px solid yellow;
+    background-color: #459E85;
+    color: white;
+    border-radius: 5px;
+/*    border: none;*/
+    font-family: "Work Sans", sans-serif;;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 100px;
 }
 
 

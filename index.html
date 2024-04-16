@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Tickethack</title>
 </head>
 <body>
@@ -22,21 +25,26 @@
 
     <div id="container">
 
-        <img id='backgroudImage' src="images/background.jpg" alt="background image">
-
-        <div id="title">
+        <div id="titles">
             <h1>Explore the world effortlessly by train!</h1>
             <h3>Compare, book and enjoy cheap prices for train tickets: your journey starts on Tickethack</h2>
         </div>
 
-        <div id="search">
-            <input type="search" value="Departure">
-            <input type="search" value="Arrival">
-            <input type="date"/>
-            <input id="searchButton" type="button" value="Search">
+        <div id="boxes">
+            <div class="box">
+                <input id="departure" type="search" placeholder="Departure">
+                <input id="arrival" type="search" placeholder="Arrival">
+                <input id="calendar" type="date"/>
+                <button id="search">Search</button>
+            </div>
+
+            <div class="box">
+                <img src="images/train.png" alt="">
+                <p>It's time to book your future trip</p>
+            </div>
         </div>
 
-        <div id="response"></div>
+
 
 
     </div>

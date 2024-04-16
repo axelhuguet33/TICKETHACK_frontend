@@ -1,10 +1,12 @@
 document.querySelector('#search').addEventListener('click', function (){
 
+
+
 //récupération du départ, de l'arrivée et de la date    
     const departureName = document.querySelector('#departure').value; 
     const arrivalName = document.querySelector('#arrival').value;
     const dateTrip = new Date(document.querySelector('#calendar').value);
-
+    console.log(departureName);
 //récupération de l'année du mois et du jour de date récupéré
     const newDay = dateTrip.getDate();
     const newMonth = dateTrip.getMonth()+ 1;
@@ -33,3 +35,5 @@ document.querySelector('#search').addEventListener('click', function (){
 
     })
 })
+
+

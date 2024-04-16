@@ -75,6 +75,8 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 
@@ -164,7 +166,27 @@ a{
 }
 
 
+.tripsList{
+    display: flex;
+    background-color: #EFF2F1;
+    border-radius: 5px;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
 
+
+}
+
+.book{
+    background-color: #459E85;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: "Work Sans", sans-serif;
+
+}
 
 /*CART*/
 

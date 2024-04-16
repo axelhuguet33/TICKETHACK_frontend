@@ -1,2 +1,45 @@
 /*grid 12*12*/
+/* Les titres sont en Noto Sans Korean 700 et les textes en Work Sans 300/400*/
+/*fond grisatre : #EFF2F1    vert : #459E85   */
+
+
+
+
+
+
+/*INDEX.HTML*/
+
+#backgroudImage {
+    background-size : cover ;
+}
+
+#searchButton {
+    background-color: #459E85;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: work sans 300;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
+/*CART*/
+
+
+
+
+
+/*BOOKING*/
+
+
+
+
 

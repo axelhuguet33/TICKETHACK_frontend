@@ -4,7 +4,7 @@
 body{
     background-color: #EFF2F1;
 }
-/*HEADER*/
+/*-------------------HEADER-------------------*/
 header{
     display: flex;
     justify-content: space-between;
@@ -31,11 +31,13 @@ A{
     text-decoration: none;
 }
 
-/*MAIN*/
+/*-------------------MAIN-------------------*/
 #container{
     background-image: url('images/background.jpg');
     background-position: center;
     padding: 50px;
+    height: 100vh;
+    width: 100vw;
 }
 
 #titles {
@@ -79,7 +81,6 @@ h2{
     overflow-x: hidden;
 }
 
-
 #departure{
     margin-top: 20px;
     background-color: #EFF2F1;
@@ -92,7 +93,6 @@ h2{
     padding: 10px;
     margin-bottom: 5px;
 }
-
 
 #arrival{
     background-color: #EFF2F1;
@@ -107,7 +107,6 @@ h2{
 
 }
 
-
 #calendar{
     background-color: #EFF2F1;
     color: #8A8C8C;
@@ -119,7 +118,6 @@ h2{
     margin-bottom: 75px;
     padding: 10px;
 }
-
 
 #search {
     background-color: #459E85;
@@ -140,7 +138,7 @@ a{
 
 
 
-/*NO BOOKING*/
+/*-------------------main with no booking-------------------*/
 .containerNoBookings{
     display: flex;
     justify-content: center;
@@ -184,10 +182,7 @@ a{
 
 }
 
-
-
-
-/*BOOKING*/
+/*-------------------main with response-------------------*/
 .book{
     background-color: #459E85;
     color: white;
@@ -209,8 +204,7 @@ a{
 }
 
 
-
-/*CART*/
+/*-------------------CART-------------------*/
 #cartContainer{
     display: flex;
     justify-content: center;
@@ -275,4 +269,44 @@ a{
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 0px 0px 10px 10px;
+}
+
+
+/*-------------------BOOKING-------------------*/
+
+
+.bookingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.mybookings{
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    height: auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.booking{
+    background-color: #EFF2F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: "Work Sans", sans-serif;
+    color: black;
 }

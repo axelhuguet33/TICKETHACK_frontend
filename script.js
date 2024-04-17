@@ -6,7 +6,6 @@ document.querySelector('#search').addEventListener('click', function (){
     const departureName = document.querySelector('#departure').value; 
     const arrivalName = document.querySelector('#arrival').value;
     const dateTrip = new Date(document.querySelector('#calendar').value);
-    console.log(departureName);
 
     if(departureName==="" || arrivalName==="" || dateTrip===""){
         document.querySelector('#response').innerHTML = `

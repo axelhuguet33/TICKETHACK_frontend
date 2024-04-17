@@ -25,6 +25,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: black;
+    outline: none;
+    font-family: "Work Sans", sans-serif;;
 }
 A{
     outline: none;
@@ -36,6 +39,7 @@ A{
     background-image: url('images/background.jpg');
     background-position: center;
     padding: 50px;
+    height: auto;
     height: 100vh;
     width: 100vw;
 }
@@ -65,7 +69,6 @@ h2{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-
     align-items: center;
     margin-left: 40px;
     margin-right: 40px;
@@ -81,8 +84,11 @@ h2{
     overflow-x: hidden;
 }
 
+
+
 #departure{
-    margin-top: 20px;
+    margin-top: 40px;
+    padding: 10px;
     background-color: #EFF2F1;
     color: #8A8C8C;
     border-radius: 5px #8A8C8C;
@@ -90,8 +96,7 @@ h2{
     font-family: "Work Sans", sans-serif;;
     height: auto;
     width: 80%;
-    padding: 10px;
-    margin-bottom: 5px;
+    border-bottom: solid 1px #8A8C8C;
 }
 
 #arrival{
@@ -104,7 +109,6 @@ h2{
     width: 80%;
     margin-bottom: 50px;
     padding: 10px;
-
 }
 
 #calendar{
@@ -114,8 +118,8 @@ h2{
     border: none; 
     font-family: "Work Sans", sans-serif;;
     height: auto;
-    width: 80%;
-    margin-bottom: 75px;
+    width: 75%;
+    margin-bottom: 35%;
     padding: 10px;
 }
 
@@ -123,11 +127,11 @@ h2{
     background-color: #459E85;
     color: white;
     border-radius: 5px;
-    border: none;
     font-family: "Work Sans", sans-serif;
     height: auto;
     width: 80%;
     padding: 10px;
+    border: none;
 }
 
 a{
@@ -139,18 +143,27 @@ a{
 
 
 /*-------------------main with no booking-------------------*/
+#bookYourTrip{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 #bookYourTrip img{
     height: 50%;
     width: auto;
-    overflow: hidden;
+
 }
 
 #noTripFound{
+    height: 50%;
+    width: auto;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 #noTripFound img{
@@ -289,6 +302,20 @@ a{
     background-color: white;
     margin: 150px;
     border-radius: 10px;
+}
+
+h3{
+    margin: 30px;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+}
+
+#textGreen{
+    margin: 30px;
+    font-family: "Work Sans", sans-serif;
+    color: #459E85;
+    border-top: solid 2px black;
+    padding-top: 20px;
 }
 
 .booking{

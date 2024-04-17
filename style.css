@@ -66,7 +66,7 @@ h2{
     justify-content: center;
 }
 
-.box{
+#box{
     background-color: white;
     border-radius: 10px;
     display: flex;
@@ -76,20 +76,33 @@ h2{
     margin-right: 40px;
     width: 350px;
     height: 400px;
+
 }
 
-#response{
+ #response{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 350px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+} 
+
+#cssResponse{
     overflow: scroll;
     overflow-x: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
 
 #departure{
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 10px;
     background-color: #EFF2F1;
     color: #8A8C8C;
@@ -121,7 +134,7 @@ h2{
     font-family: "Work Sans", sans-serif;;
     height: auto;
     width: 75%;
-    margin-bottom: 35%;
+    margin-bottom: 45%;
     padding: 10px;
 }
 
@@ -146,7 +159,6 @@ a{
 
 /*-------------------main with no booking-------------------*/
 #bookYourTrip{
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,7 +173,6 @@ a{
 #noTripFound{
     height: 50%;
     width: auto;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,6 +204,11 @@ a{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
+    height: auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px 15px;
 }
 
 

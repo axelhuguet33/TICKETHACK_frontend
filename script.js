@@ -83,9 +83,11 @@ document.querySelector('#search').addEventListener('click', function (){
                             .then(response => response.json())
                             .then(data => {
                                 console.log(data);
-                            });
+                                
+                            }).then(window.location.assign("cart.html"));
 
                         })
+
                     })
                 }
             })

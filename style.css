@@ -222,12 +222,30 @@ a{
 }
 
 .myCart{
-    background-color: white;
-    border-radius: 10px;
-    width: 70%;
-    height: auto;
+    /* 
+    
     padding-top: 100px;
+    align-items: center;
+    */
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* margin: 150px; */
+    border-radius: 10px;
+    height: auto;
+    width: 75%;
+
+
+}
+
+#cartList{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90%;
 }
 
 .delete{
@@ -247,7 +265,7 @@ a{
 .cart{
     background-color: #EFF2F1;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
@@ -256,6 +274,8 @@ a{
     border-radius: 5px;
     font-family: "Work Sans", sans-serif;
     color: black;
+    padding-left: 40px;
+    padding-right: 20px;
 }
 .purchase{
     background-color: #459E85;
@@ -263,8 +283,10 @@ a{
     border-radius: 5px;
     border: none;
     font-family: "Work Sans", sans-serif;
-    margin: 10px;
-
+    margin: 10px 40px 10px 10px;
+    width: 100px;
+    height: auto;
+    
 }
 
 .totalCarts{
@@ -272,11 +294,13 @@ a{
     color: white;
     display: flex;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    padding-top: 10px;
     border-radius: 0px 0px 10px 10px;
+    height: auto;
+    width: 100%;
+}
+
+#total{
+    margin-left: 40px;
 }
 
 
@@ -326,6 +350,7 @@ h3{
     margin: 30px;
     font-family: "Work Sans", sans-serif;
     color: black;
+    text-align: center;
 }
 
 #textGreen{
